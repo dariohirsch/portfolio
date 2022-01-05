@@ -132,9 +132,27 @@
 }
 #welcome-container h2 {
 	font-size: 3.5rem;
+
 	margin-bottom: 20px;
 }
 #welcome-container a {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	margin-right: 20px;
+}
+
+#link-cont {
+	margin-top: 3em;
+}
+#link-cont a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	border: 1px solid rgb(245, 80, 80);
+	border-radius: 4px;
+	padding: 8px;
+	transition: all 0.8s ease;
+}
+
+#link-cont a:hover {
+	background-color: rgb(245, 80, 80);
 }
