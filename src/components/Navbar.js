@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 import Link from "react-scroll/modules/components/Link"
+import App from "../App"
+import "../App.css"
 
 const Navbar = () => {
 	const [click, setClick] = useState(false)

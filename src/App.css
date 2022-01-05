@@ -9,7 +9,7 @@
 .navbar {
 	display: flex;
 	position: relative;
-	background: rgb(255, 254, 254);
+	background-color: rgb(255, 254, 254);
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
@@ -23,6 +23,8 @@
 .link {
 	color: black;
 	cursor: pointer;
+	transition: 0.4s ease;
+	font-weight: 1200;
 }
 #logo {
 	position: absolute;
@@ -92,4 +94,47 @@
 }
 .mobile-menu {
 	display: block;
+}
+
+/* welcome section */
+
+#welcome {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../public/fondo.jpeg");
+
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+#welcome h4,
+#welcome h2,
+#welcome p {
+	color: white;
+}
+
+#welcome-container {
+	border: 1px solid black;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#welcome-container h4 {
+	font-size: 2rem;
+
+	margin-bottom: 20px;
+}
+#welcome-container h2 {
+	font-size: 3.5rem;
+	margin-bottom: 20px;
+}
+#welcome-container a {
+	font-size: 1.5rem;
+	margin-right: 20px;
 }
