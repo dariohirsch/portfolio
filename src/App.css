@@ -32,6 +32,7 @@
 	height: 35px;
 	top: 15px;
 	left: 40px;
+	cursor: pointer;
 }
 .nav-options {
 	padding-left: 25px;
@@ -155,4 +156,62 @@
 
 #link-cont a:hover {
 	background-color: rgb(245, 80, 80);
+}
+
+/* About section */
+
+#about-me {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#img-container {
+	height: 400px;
+	width: 400px;
+}
+
+#img-container img {
+	height: auto;
+	width: 100%;
+	border-radius: 50px;
+}
+
+#about-text {
+	height: 55vh;
+	width: 35vw;
+	padding: 40px;
+}
+/* 
+hr {
+	color: 1px solid black;
+	margin: 20px 20px;
+	width: 50%;
+	text-align: center;
+} */
+
+/* Hard Skills */
+
+#hard-skills {
+	height: 50vh;
+	background-color: rgba(245, 240, 240, 0.76);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+.skills-logo {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.skills-logo img {
+	width: 110px;
+	height: 100px;
+	margin-right: 10px;
 }

@@ -8,7 +8,7 @@ const Navbar = () => {
 
 	return (
 		<div className="navbar">
-			<Link to="welcome">
+			<Link to="welcome" smooth={true} duration={1000}>
 				<img src="./foto" alt="logo" id="logo"></img>
 			</Link>
 
