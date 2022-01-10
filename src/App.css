@@ -109,6 +109,56 @@
 	align-items: center;
 }
 
+#d {
+	transition: 3s;
+}
+#e {
+	transition: 3s;
+}
+#v {
+	transition: 3s;
+}
+#l {
+	transition: 3s;
+}
+#o {
+	transition: 3s;
+}
+#p {
+	transition: 3s;
+}
+#r {
+	transition: 3s;
+}
+#d:hover {
+	color: #f9d99a;
+	transition: 0s;
+}
+#e:hover {
+	color: #77dd77;
+	transition: 0s;
+}
+#v:hover {
+	color: #fdfd96;
+	transition: 0s;
+}
+#l:hover {
+	color: #84b6f4;
+	transition: 0s;
+}
+#o:hover {
+	color: #fdcae1;
+	transition: 0s;
+}
+#p:hover {
+	color: #b2e2f2;
+	transition: 0s;
+}
+#r:hover {
+	color: #dcd9f8;
+	transition: 0s;
+}
+
 #welcome h4,
 #welcome h2,
 #welcome p {
@@ -116,8 +166,8 @@
 }
 
 #welcome-container {
-	border: 1px solid black;
-	background-color: rgba(0, 0, 0, 0.6);
+	/* border: 1px solid black; */
+	background-color: rgba(0, 0, 0, 0.4);
 	width: 100vw;
 	height: 100vh;
 	display: flex;
@@ -193,8 +243,8 @@ hr {
 /* Hard Skills */
 
 #hard-skills {
-	height: 50vh;
-	background-color: rgba(245, 240, 240, 0.76);
+	height: 30vh;
+	background-color: rgba(245, 240, 240, 0.4);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -214,4 +264,72 @@ hr {
 	width: 110px;
 	height: 100px;
 	margin-right: 10px;
+}
+
+/* Projects */
+
+#projects-container {
+	height: 110vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#projects-container h2 {
+	margin-top: 60px;
+}
+
+#projects {
+	width: 90vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.project-card {
+	position: relative;
+	width: 28vw;
+	height: 35vh;
+	margin: 30px 15px 0 15px;
+	box-shadow: 1px 8px 44px -18px rgba(55, 55, 55, 0.71);
+	border-radius: 3px;
+	transition: 1s ease;
+}
+
+.project-card img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.project-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 28vw;
+	height: 35vh;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.95);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s ease;
+}
+
+.project-text:hover {
+	opacity: 1;
+}
+.project-text p {
+	margin-top: 20px;
+	width: 75%;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.gh-link {
+	text-decoration: none;
+	color: rgb(245, 80, 80);
 }

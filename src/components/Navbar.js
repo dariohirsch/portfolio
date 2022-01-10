@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Link from "react-scroll/modules/components/Link"
-import App from "../App"
+
 import "../App.css"
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className="option">
-						<Link to="projects" smooth={true} duration={1000} className="link">
+						<Link to="projects-container" smooth={true} duration={1000} className="link">
 							Projects
 						</Link>
 					</li>
