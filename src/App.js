@@ -2,6 +2,7 @@
 import "./App.css"
 
 import About from "./components/About"
+import Contact from "./components/Contact"
 import HardSkills from "./components/HardSkills"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
@@ -15,6 +16,7 @@ const App = () => {
 			<About />
 			<HardSkills />
 			<Projects />
+			<Contact />
 		</>
 	)
 }

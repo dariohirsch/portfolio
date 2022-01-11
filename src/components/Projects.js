@@ -13,7 +13,7 @@ const Projects = () => {
 
 						<p>
 							<a className="gh-link" href="asda">
-								Github
+								CODE
 							</a>
 						</p>
 
@@ -21,14 +21,14 @@ const Projects = () => {
 					</div>
 				</div>
 				<div className="project-card">
-					<img src="my wish list.png" alt="" />
+					<img src="/my wish list.png" alt="" />
 					<div className="project-text">
 						<h3>My Wish List</h3>
 						<p> Game created using Canvas. The goal is to score as much as possible dodging cones.</p>
-						<p className="tech">HTML - CSS - JS - MONGODB - NODE.JS</p>
+						<p className="tech">HTML - CSS - JS - MONGO.DB - NODE.JS</p>
 						<p>
 							<a className="gh-link" href="asda">
-								Github
+								CODE
 							</a>
 						</p>
 						<div className="workLinksContainer"></div>
@@ -42,7 +42,7 @@ const Projects = () => {
 						<p className="tech">MONGODB - EXPRESS.JS - REACT.JS - NODE.JS</p>
 						<p>
 							<a className="gh-link" href="asda">
-								Github
+								CODE
 							</a>
 						</p>
 						<div className="workLinksContainer"></div>

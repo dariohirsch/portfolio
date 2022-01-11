@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<div className="navbar">
 			<Link to="welcome" smooth={true} duration={1000}>
-				<img src="./foto" alt="logo" id="logo"></img>
+				<img src="/DH (2).png" alt="logo" id="logo" />
 			</Link>
 
 			<div>
