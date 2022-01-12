@@ -5,10 +5,14 @@ import { GiHamburgerMenu } from "react-icons/gi"
 import "../App.css"
 
 const Navbar = () => {
-	const [click, setClick] = useState(false)
+	const [click, setClick] = useState("nav-options")
 
 	const handleNavbar = () => {
-		setClick(!click)
+		if (click === "nav-options") {
+			setClick("nav-options nav-mobile")
+		} else {
+			setClick("nav-options")
+		}
 	}
 
 	return (
@@ -18,7 +22,7 @@ const Navbar = () => {
 			</Link>
 
 			<div>
-				<ul id="links" className="nav-options">
+				<ul id="links" className={click}>
 					<li className="option">
 						<Link to="about-me" smooth={true} duration={1000} className="link">
 							About me

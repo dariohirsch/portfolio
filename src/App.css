@@ -317,3 +317,23 @@ hr {
 }
 
 /* Reponsive */
+
+@media (max-width: 450px) {
+	.nav-options {
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		top: 68px;
+		left: 0px;
+		background-color: white;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+	.hamburger {
+		display: flex;
+	}
+	.nav-mobile {
+		display: none;
+	}
+}
