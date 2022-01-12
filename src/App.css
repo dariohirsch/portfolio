@@ -353,4 +353,36 @@ hr {
 	#hard-skills h2 {
 		margin-bottom: 20px;
 	}
+
+	#welcome-container h2 {
+		text-align: center;
+	}
+	#link-cont a {
+		background-color: rgb(245, 80, 80);
+	}
+
+	#about-me {
+		flex-direction: column;
+		justify-content: flex-start;
+		height: 80vh;
+		margin-top: 40px;
+	}
+
+	#img-container {
+		height: 260px;
+		width: 260px;
+	}
+
+	#about-text h2 {
+		font-size: 1rem;
+		margin-bottom: 40px;
+	}
+	#about-text p {
+		overflow-wrap: anywhere;
+	}
+	#about-text {
+		font-size: 18px;
+		width: 90vw;
+		height: 70vh;
+	}
 }
