@@ -1,10 +1,15 @@
 import React, { useState } from "react"
 import Link from "react-scroll/modules/components/Link"
+import { GiHamburgerMenu } from "react-icons/gi"
 
 import "../App.css"
 
 const Navbar = () => {
 	const [click, setClick] = useState(false)
+
+	const handleNavbar = () => {
+		setClick(!click)
+	}
 
 	return (
 		<div className="navbar">
@@ -13,7 +18,7 @@ const Navbar = () => {
 			</Link>
 
 			<div>
-				<ul id="links" className={click ? "nav-options active" : "nav-options"}>
+				<ul id="links" className="nav-options">
 					<li className="option">
 						<Link to="about-me" smooth={true} duration={1000} className="link">
 							About me
@@ -30,6 +35,9 @@ const Navbar = () => {
 						</Link>
 					</li>
 				</ul>
+			</div>
+			<div>
+				<GiHamburgerMenu className="hamburger" onClick={handleNavbar} />
 			</div>
 		</div>
 	)
