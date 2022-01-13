@@ -221,11 +221,13 @@ hr {
 /* Projects */
 
 #projects-container {
-	height: 110vh;
+	height: 100vh;
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 20px;
+	margin-bottom: 40px;
 }
 #projects-container h2 {
 	margin-top: 60px;
@@ -324,7 +326,7 @@ hr {
 		position: absolute;
 		flex-direction: column;
 		top: 68px;
-		left: 0px;
+		left: -100%;
 		background-color: white;
 		width: 100%;
 		justify-content: center;
@@ -337,7 +339,15 @@ hr {
 		height: 25px;
 	}
 	.nav-mobile {
-		display: none;
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		top: 70px;
+		left: 0px;
+		background-color: white;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.skills-logo img {
@@ -348,7 +358,7 @@ hr {
 
 	#hard-skills {
 		justify-content: space-between;
-		height: 68vh;
+		height: 70vh;
 	}
 	#hard-skills h2 {
 		margin-bottom: 20px;
@@ -377,12 +387,15 @@ hr {
 		font-size: 1rem;
 		margin-bottom: 40px;
 	}
-	#about-text p {
-		overflow-wrap: anywhere;
-	}
+
 	#about-text {
 		font-size: 18px;
 		width: 90vw;
-		height: 70vh;
+		display: flex;
+	}
+
+	#welcome h2 {
+		text-align: start;
+		margin-left: 1rem;
 	}
 }
