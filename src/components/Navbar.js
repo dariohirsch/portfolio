@@ -18,7 +18,7 @@ const Navbar = () => {
 	return (
 		<div className="navbar">
 			<Link to="welcome" smooth={true} duration={1000}>
-				<img src="/DH (2).png" alt="logo" id="logo" />
+				<img src="/dh logo.png" alt="logo" id="logo" />
 			</Link>
 
 			<div>
