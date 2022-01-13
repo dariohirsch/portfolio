@@ -227,7 +227,7 @@ hr {
 /* Projects */
 
 #projects-container {
-	height: 100vh;
+	height: 108vh;
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
@@ -269,7 +269,7 @@ hr {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 28vw;
+
 	height: 35vh;
 	opacity: 0;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -413,7 +413,7 @@ hr {
 	}
 
 	#projects-container {
-		height: 134vh;
+		height: 140vh;
 	}
 
 	#projects {
