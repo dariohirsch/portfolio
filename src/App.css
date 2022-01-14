@@ -270,7 +270,7 @@ hr {
 	top: 0;
 	left: 0;
 
-	height: 35vh;
+	height: 100%;
 	opacity: 0;
 	background-color: rgba(0, 0, 0, 0.8);
 	color: white;
@@ -421,6 +421,8 @@ hr {
 		align-items: center;
 	}
 	.project-card {
-		width: 86vw;
+		width: 84vw;
+
+		height: 26vh;
 	}
 }
