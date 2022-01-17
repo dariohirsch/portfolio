@@ -29,7 +29,7 @@ const Welcome = (props) => {
 				) : (
 					<>
 						<h4>Hola!</h4>
-						<h2 style={{ textAlign: "center" }}>
+						<h2 id="spanish-title">
 							Soy Dario Hirsch <br />
 							Desarrollador <span>Web</span>
 							{/* <span id="e">e</span>

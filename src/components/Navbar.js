@@ -43,6 +43,17 @@ const Navbar = (props) => {
 									Contact
 								</Link>
 							</li>
+							<li>
+								{props.language ? (
+									<button id="lang-btn" onClick={props.handleLanguage}>
+										CA
+									</button>
+								) : (
+									<button id="lang-btn" onClick={props.handleLanguage}>
+										EN
+									</button>
+								)}
+							</li>
 						</ul>
 					) : (
 						<ul id="links" className={click}>
@@ -61,10 +72,19 @@ const Navbar = (props) => {
 									Contacto
 								</Link>
 							</li>
+							<li>
+								{props.language ? (
+									<button id="lang-btn" onClick={props.handleLanguage}>
+										CA
+									</button>
+								) : (
+									<button id="lang-btn" onClick={props.handleLanguage}>
+										EN
+									</button>
+								)}
+							</li>
 						</ul>
 					)}
-
-					<div>{props.language ? <button onClick={props.handleLanguage}>CA</button> : <button onClick={props.handleLanguage}>EN</button>}</div>
 				</div>
 				<div>
 					<GiHamburgerMenu className="hamburger" onClick={handleNavbar} />
