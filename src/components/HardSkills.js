@@ -1,7 +1,8 @@
-const HardSkills = () => {
+const HardSkills = (props) => {
 	return (
 		<div id="hard-skills">
-			<h2>HARD SKILLS</h2>
+			{props.language ? <h2>HARD SKILLS</h2> : <h2>HABILIDADES</h2>}
+
 			<div className="skills-logo">
 				<img src="/html logo.svg" alt="html"></img>
 				<img src="/css logo.svg" alt="css"></img>

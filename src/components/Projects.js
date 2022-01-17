@@ -1,7 +1,7 @@
-const Projects = () => {
+const Projects = (props) => {
 	return (
 		<div id="projects-container">
-			<h2>PROJECTS</h2>
+			{props.language ? <h2>PROJECTS</h2> : <h2>PROJECTOS</h2>}
 
 			<div id="projects">
 				<div className="project-card">
