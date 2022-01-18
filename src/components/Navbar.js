@@ -34,6 +34,11 @@ const Navbar = (props) => {
 								</Link>
 							</li>
 							<li className="option">
+								<Link to="hard-skills" smooth={true} duration={1000} className="link">
+									Skills
+								</Link>
+							</li>
+							<li className="option">
 								<Link to="projects-container" smooth={true} duration={1000} className="link">
 									Projects
 								</Link>
@@ -63,8 +68,13 @@ const Navbar = (props) => {
 								</Link>
 							</li>
 							<li className="option">
+								<Link to="hard-skills" smooth={true} duration={1000} className="link">
+									Habilidades
+								</Link>
+							</li>
+							<li className="option">
 								<Link to="projects-container" smooth={true} duration={1000} className="link">
-									Projectos
+									Proyectos
 								</Link>
 							</li>
 							<li className="option">
