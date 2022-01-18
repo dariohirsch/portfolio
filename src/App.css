@@ -437,4 +437,7 @@ hr {
 
 		height: 26vh;
 	}
+	.project-text p {
+		margin-top: 14px;
+	}
 }
