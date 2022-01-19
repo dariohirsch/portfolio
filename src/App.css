@@ -402,11 +402,11 @@ hr {
 	}
 
 	#about-me {
+		margin-bottom: 20rem;
 		flex-direction: column;
 		justify-content: flex-start;
-		height: 120vh;
+		height: 100vh;
 		margin-top: 40px;
-
 		padding-top: 50px;
 	}
 
