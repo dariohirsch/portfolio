@@ -388,6 +388,7 @@ hr {
 	#hard-skills {
 		justify-content: space-between;
 		height: 70vh;
+		margin-top: 3rem;
 	}
 	#hard-skills h2 {
 		margin-bottom: 20px;
@@ -405,6 +406,7 @@ hr {
 		justify-content: flex-start;
 		height: 116vh;
 		margin-top: 40px;
+		padding-top: 50px;
 	}
 
 	#img-container {
