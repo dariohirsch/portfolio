@@ -6,7 +6,13 @@ const About = (props) => {
 			</div>
 			{props.language ? (
 				<div id="about-text">
-					<p>hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello </p>
+					<p id="text">
+						{" "}
+						I’m a Fullstack Web developer Jr. living in Barcelona. <br />
+						In my previous life, I was an accountant from the University of Buenos Aires. After some years working in that field, I decided to change my career and found my passion in the IT world. In 2021 I finished a Bootcamp in Web Development in IronHack Barcelona.
+						<br /> I’m a motivated person eager to grow in this new world. <br /> I like teamwork but I’m able to adapt to different scenarios.
+						<br /> If you have any questions, please don-t hesitate to contact me!
+					</p>
 				</div>
 			) : (
 				<div id="about-text">
@@ -14,7 +20,7 @@ const About = (props) => {
 						{" "}
 						Soy un Desarrolador Fullstack Junior viviendo en Barcelona. <br />
 						En mi vida anterior fui Contador Público, recibido de la Universidad de Buenos Aires. Luego de varios años de trabajo en esa área, decidí cambiar de carrera y encontré mi pasión en el mundo de la programación. En 2021 realicé un Bootcamp de Desarrollo Web en IronHack Barcelona.
-						<br /> Soy una persona motivada y con muchas ganas de crecer en este nuevo mundo. <br /> Me gusta el trabajo en equipo como principal metodología, pero con capacidad de adaptarme a los distintos escenarios.
+						<br /> Soy una persona motivada y con muchas ganas de crecer en este nuevo mundo. <br /> Me gusta el trabajo en equipo pero soy capaz de adaptarme a distintos escenarios.
 						<br /> Por cualquier inquietud, no dudes en ponerte en contacto conmigo!
 					</p>
 				</div>
