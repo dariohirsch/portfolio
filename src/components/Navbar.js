@@ -15,6 +15,11 @@ const Navbar = (props) => {
 		}
 	}
 
+	const twoClicks = () => {
+		handleNavbar()
+		props.handleLanguage()
+	}
+
 	console.log("estas son la props que recibe el nav", props)
 
 	return (
@@ -29,32 +34,32 @@ const Navbar = (props) => {
 					{props.language ? (
 						<ul id="links" className={click}>
 							<li className="option">
-								<Link to="about-me" smooth={true} duration={1000} className="link">
+								<Link to="about-me" smooth={true} duration={1000} className="link" onClick={handleNavbar}>
 									About me
 								</Link>
 							</li>
 							<li className="option">
-								<Link to="hard-skills" smooth={true} duration={1000} className="link">
+								<Link to="hard-skills" smooth={true} duration={1000} className="link" onClick={handleNavbar}>
 									Skills
 								</Link>
 							</li>
 							<li className="option">
-								<Link to="projects-container" smooth={true} duration={1000} className="link">
+								<Link to="projects-container" smooth={true} duration={1000} className="link" onClick={handleNavbar}>
 									Projects
 								</Link>
 							</li>
 							<li className="option">
-								<Link to="contact" smooth={true} duration={1000} className="link">
+								<Link to="contact" smooth={true} duration={1000} className="link" onClick={handleNavbar}>
 									Contact
 								</Link>
 							</li>
 							<li>
 								{props.language ? (
-									<button id="lang-btn" onClick={props.handleLanguage}>
+									<button id="lang-btn" onClick={twoClicks}>
 										CA
 									</button>
 								) : (
-									<button id="lang-btn" onClick={props.handleLanguage}>
+									<button id="lang-btn" onClick={twoClicks}>
 										EN
 									</button>
 								)}
@@ -63,32 +68,32 @@ const Navbar = (props) => {
 					) : (
 						<ul id="links" className={click}>
 							<li className="option">
-								<Link to="about-me" smooth={true} duration={1000} className="link">
+								<Link to="about-me" smooth={true} duration={1000} className="link" onClick={handleNavbar}>
 									Sobre mí
 								</Link>
 							</li>
 							<li className="option">
-								<Link to="hard-skills" smooth={true} duration={1000} className="link">
+								<Link to="hard-skills" smooth={true} duration={1000} className="link" onClick={handleNavbar}>
 									Habilidades
 								</Link>
 							</li>
 							<li className="option">
-								<Link to="projects-container" smooth={true} duration={1000} className="link">
+								<Link to="projects-container" smooth={true} duration={1000} className="link" onClick={handleNavbar}>
 									Proyectos
 								</Link>
 							</li>
 							<li className="option">
-								<Link to="contact" smooth={true} duration={1000} className="link">
+								<Link to="contact" smooth={true} duration={1000} className="link" onClick={handleNavbar}>
 									Contacto
 								</Link>
 							</li>
 							<li>
 								{props.language ? (
-									<button id="lang-btn" onClick={props.handleLanguage}>
+									<button id="lang-btn" onClick={twoClicks}>
 										CA
 									</button>
 								) : (
-									<button id="lang-btn" onClick={props.handleLanguage}>
+									<button id="lang-btn" onClick={twoClicks}>
 										EN
 									</button>
 								)}
