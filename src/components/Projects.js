@@ -15,7 +15,7 @@ const Projects = (props) => {
 								<p className="tech">HTML - JS - CSS</p>
 
 								<p>
-									<a className="gh-link" href="asda">
+									<a className="gh-link" href="https://github.com/dariohirsch/First-project" target="_blank" rel="noreferrer">
 										CODE
 									</a>
 								</p>
@@ -30,7 +30,7 @@ const Projects = (props) => {
 								<p> Web app where you can search thousands of products of your interest and add them to your wishlist. You can later share the list with your contacts. It uses the MercadoLibre API, the biggest ecommerce of LATAM to get the complete info of each product.</p>
 								<p className="tech">HTML - CSS - JS - MONGO.DB - NODE.JS</p>
 								<p>
-									<a className="gh-link" href="asda">
+									<a className="gh-link" href="https://github.com/dariohirsch/second-proyect" target="_blank" rel="noreferrer">
 										CODE
 									</a>
 								</p>
@@ -44,7 +44,7 @@ const Projects = (props) => {
 								<p> Web app where you can create private or public leagues to bet in real sports playing against real people. It uses the Bet365 API to get all the competitions and their respective events and quotes. </p>
 								<p className="tech">MONGODB - EXPRESS.JS - REACT.JS - NODE.JS</p>
 								<p>
-									<a className="gh-link" href="asda">
+									<a className="gh-link" href="https://github.com/dariohirsch/final-project-front" target="_blank" rel="noreferrer">
 										CODE
 									</a>
 								</p>
@@ -63,7 +63,7 @@ const Projects = (props) => {
 								<p className="tech">HTML - JS - CSS</p>
 
 								<p>
-									<a className="gh-link" href="asda">
+									<a className="gh-link" href="https://github.com/dariohirsch/First-project" target="_blank" rel="noreferrer">
 										CODE
 									</a>
 								</p>
@@ -78,7 +78,7 @@ const Projects = (props) => {
 								<p> Aplicación web en donde podrás buscar entre miles de proctos y añadirlos a tu lista de deseos. Luego podrás compartir la lista facilmente con tus contactos. Utiliza la API de MercadoLibre, el ecommerce mas grande LATAM para obtener el producto y todos sus detalles.</p>
 								<p className="tech">HTML - CSS - JS - MONGO.DB - NODE.JS</p>
 								<p>
-									<a className="gh-link" href="asda">
+									<a className="gh-link" href="https://github.com/dariohirsch/second-proyect" target="_blank" rel="noreferrer">
 										CODE
 									</a>
 								</p>
@@ -92,7 +92,7 @@ const Projects = (props) => {
 								<p> Aplicación web en donde podrás crear ligas públicas o privadas y apostar en deportes reales contra personas reales. Utiliza la API de Bet365 para obtener la información de las distintas competiciones y sus respectivos eventos y cuotas.</p>
 								<p className="tech">MONGODB - EXPRESS.JS - REACT.JS - NODE.JS</p>
 								<p>
-									<a className="gh-link" href="asda">
+									<a className="gh-link" href="https://github.com/dariohirsch/final-project-front	" target="_blank" rel="noreferrer">
 										CODE
 									</a>
 								</p>
