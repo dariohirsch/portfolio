@@ -8,7 +8,7 @@ const Contact = () => {
 				</span>
 
 				<span className="to-align">
-					<img className="contact-logo" src="/icons8-teléfono-celular-50.png" alt="" />
+					<img className="contact-logo" src="/whatsapp.png" alt="" />
 					<span>+34 670 34 98 43</span>
 				</span>
 				<a className="to-align" href="http://www.linkedin.com/in/dario-hirsch" target="_blank" rel="noreferrer">

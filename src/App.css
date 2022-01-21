@@ -160,8 +160,9 @@
 }
 #link-cont a {
 	text-decoration: none;
+
 	color: white;
-	font-weight: 800;
+	font-weight: lighter;
 	border: 1px solid rgb(245, 80, 80);
 	border-radius: 4px;
 	padding: 8px;
@@ -188,7 +189,7 @@
 #img-container img {
 	height: auto;
 	width: 100%;
-	border-radius: 50px;
+	border-radius: 100px;
 }
 
 #about-text {
@@ -199,6 +200,8 @@
 
 #text {
 	line-height: 1.9rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: lighter;
 }
 /* 
 hr {
@@ -315,18 +318,20 @@ hr {
 /* Contact */
 
 #contact {
-	height: 30vh;
+	height: 50vh;
 
-	background-color: rgba(245, 240, 240, 0.4);
+	background-color: rgba(252, 246, 246, 0.822);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-/* #contact-info span {
-	color: white;
-} */
+#contact-info span,
+a {
+	font-family: "Poppins", sans-serif;
+	font-weight: lighter;
+}
 
 #contact-info {
 	margin-top: 1.5rem;
@@ -344,7 +349,7 @@ hr {
 	text-decoration: none;
 	color: black;
 	align-items: center;
-	margin-top: 8px;
+	margin-top: 20px;
 }
 
 /* Reponsive */
