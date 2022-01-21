@@ -56,11 +56,11 @@ const Navbar = (props) => {
 							<li>
 								{props.language ? (
 									<button id="lang-btn" onClick={twoClicks}>
-										CA
+										<img className="contact-logo" src="/kisspng-flag-of-spain-flag-of-puerto-rico-national-flag-spain-5ac7c19fef3bb7.1174884415230406719799.png" alt="" />
 									</button>
 								) : (
 									<button id="lang-btn" onClick={twoClicks}>
-										EN
+										<img className="contact-logo" src="/kisspng-flag-of-england-flag-of-the-united-kingdom-england-5ab872993fcf79.0144293715220374012614.png" alt="" />
 									</button>
 								)}
 							</li>
@@ -89,12 +89,10 @@ const Navbar = (props) => {
 							</li>
 							<li>
 								{props.language ? (
-									<button id="lang-btn" onClick={twoClicks}>
-										CA
-									</button>
+									<img className="contact-logo" src="/kisspng-flag-of-spain-flag-of-puerto-rico-national-flag-spain-5ac7c19fef3bb7.1174884415230406719799.png" alt="" />
 								) : (
 									<button id="lang-btn" onClick={twoClicks}>
-										EN
+										<img className="contact-logo" src="/kisspng-flag-of-england-flag-of-the-united-kingdom-england-5ab872993fcf79.0144293715220374012614.png" alt="" />
 									</button>
 								)}
 							</li>

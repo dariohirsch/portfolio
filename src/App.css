@@ -43,6 +43,7 @@
 	grid-template-columns: repeat(5, auto);
 	grid-gap: 50px;
 	list-style-type: none;
+	align-items: center;
 }
 
 #lang-btn {
@@ -50,11 +51,11 @@
 	cursor: pointer;
 	background-color: white;
 	font-weight: bolder;
-	color: rgb(245, 80, 80);
+	color: #58a941;
 }
 
 .option :hover {
-	color: rgb(245, 80, 80);
+	color: #58a941;
 }
 
 /* welcome section */
@@ -163,14 +164,14 @@
 
 	color: white;
 	font-weight: lighter;
-	border: 1px solid rgb(245, 80, 80);
+	border: 1px solid #58a941;
 	border-radius: 4px;
 	padding: 8px;
 	transition: all 0.8s ease;
 }
 
 #link-cont a:hover {
-	background-color: rgb(245, 80, 80);
+	background-color: #58a941;
 }
 
 /* About section */
@@ -403,7 +404,8 @@ a {
 		text-align: center;
 	} */
 	#link-cont a {
-		background-color: rgb(245, 80, 80);
+		background-color: #7da572;
+		border: #7da572;
 		font-size: 18px;
 	}
 

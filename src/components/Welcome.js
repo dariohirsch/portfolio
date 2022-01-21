@@ -6,7 +6,7 @@ const Welcome = (props) => {
 					<>
 						<h4>Hi!</h4>
 						<h2>
-							I`m Dario Hirsch <br />
+							I'm Dario Hirsch <br />
 							Web <span id="d">D</span>
 							<span id="e">e</span>
 							<span id="v">v</span>
