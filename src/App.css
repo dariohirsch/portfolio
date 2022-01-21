@@ -51,11 +51,11 @@
 	cursor: pointer;
 	background-color: white;
 	font-weight: bolder;
-	color: #58a941;
+	color: rgb(245, 80, 80);
 }
 
 .option :hover {
-	color: #58a941;
+	color: rgb(245, 80, 80);
 }
 
 /* welcome section */
@@ -163,15 +163,17 @@
 	text-decoration: none;
 
 	color: white;
-	font-weight: lighter;
-	border: 1px solid #58a941;
+	font-weight: 200;
+	border: 2px inset rgb(245, 80, 80);
+
 	border-radius: 4px;
 	padding: 8px;
+
 	transition: all 0.8s ease;
 }
 
 #link-cont a:hover {
-	background-color: #58a941;
+	background-color: rgb(245, 80, 80);
 }
 
 /* About section */
@@ -404,8 +406,8 @@ a {
 		text-align: center;
 	} */
 	#link-cont a {
-		background-color: #7da572;
-		border: #7da572;
+		background-color: rgb(245, 80, 80);
+		border: rgb(245, 80, 80);
 		font-size: 18px;
 	}
 
