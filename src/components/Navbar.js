@@ -20,8 +20,6 @@ const Navbar = (props) => {
 		props.handleLanguage()
 	}
 
-	console.log("estas son la props que recibe el nav", props)
-
 	return (
 		<>
 			{" "}
@@ -56,11 +54,11 @@ const Navbar = (props) => {
 							<li>
 								{props.language ? (
 									<button id="lang-btn" onClick={twoClicks}>
-										<img className="contact-logo" src="/kisspng-flag-of-spain-flag-of-puerto-rico-national-flag-spain-5ac7c19fef3bb7.1174884415230406719799.png" alt="" />
+										<img className="contact-logo" src="/spain flag.jpeg" alt="" />
 									</button>
 								) : (
 									<button id="lang-btn" onClick={twoClicks}>
-										<img className="contact-logo" src="/kisspng-flag-of-england-flag-of-the-united-kingdom-england-5ab872993fcf79.0144293715220374012614.png" alt="" />
+										<img className="contact-logo" src="/british flag.jpeg" alt="" />
 									</button>
 								)}
 							</li>
@@ -89,10 +87,12 @@ const Navbar = (props) => {
 							</li>
 							<li>
 								{props.language ? (
-									<img className="contact-logo" src="/kisspng-flag-of-spain-flag-of-puerto-rico-national-flag-spain-5ac7c19fef3bb7.1174884415230406719799.png" alt="" />
+									<button id="lang-btn" onClick={twoClicks}>
+										<img className="contact-logo" src="/spain flag.jpeg" alt="" />
+									</button>
 								) : (
 									<button id="lang-btn" onClick={twoClicks}>
-										<img className="contact-logo" src="/kisspng-flag-of-england-flag-of-the-united-kingdom-england-5ab872993fcf79.0144293715220374012614.png" alt="" />
+										<img className="contact-logo" src="/british flag.jpeg" alt="" />
 									</button>
 								)}
 							</li>

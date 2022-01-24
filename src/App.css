@@ -164,7 +164,7 @@
 
 	color: white;
 	font-weight: 200;
-	border: 2px inset rgb(245, 80, 80);
+	border: 2px solid rgb(245, 80, 80);
 
 	border-radius: 4px;
 	padding: 8px;
@@ -343,7 +343,7 @@ a {
 }
 
 .contact-logo {
-	height: 30px;
+	height: 30px !important;
 	margin: 5px;
 }
 

@@ -8,10 +8,10 @@ const About = (props) => {
 				<div id="about-text">
 					<p id="text">
 						{" "}
-						I’m a Fullstack Web developer Jr. living in Barcelona. <br />
+						I'm a Jr. Fullstack Web Developer living in Barcelona. <br />
 						In my previous life, I was an accountant from the University of Buenos Aires. After some years working in that field, I decided to change my career and found my passion in the IT world. In 2021 I finished a Bootcamp in Web Development in IronHack Barcelona.
-						<br /> I’m a motivated person eager to grow in this new world. <br /> I like teamwork but I’m able to adapt to different scenarios.
-						<br /> If you have any questions, please don-t hesitate to contact me!
+						<br /> I'm a motivated person eager to grow in this new world. <br /> I like teamwork but I'm able to adapt to different scenarios.
+						<br /> If you have any questions, please don't hesitate to contact me!
 					</p>
 				</div>
 			) : (

@@ -18,10 +18,10 @@ const Welcome = (props) => {
 							<span id="r">r</span>
 						</h2>
 						<div id="link-cont">
-							<a dowload="Dario Hirsch CV - EN" href="../Dario Hirsch CV - English.pdf" id="downloadBtn" target="_blank">
+							<a href="../Dario Hirsch CV - English.pdf" id="downloadBtn" target="_blank">
 								English Resume
 							</a>
-							<a download="Dario Hirsch CV - CA" href="../Dario Hirsch CV - Castellano.pdf" id="downloadBtn" target="_blank">
+							<a href="../Dario Hirsch CV - Castellano.pdf" id="downloadBtn" target="_blank">
 								Spanish Resume
 							</a>
 						</div>
@@ -42,11 +42,11 @@ const Welcome = (props) => {
 							<span id="r">r</span> */}
 						</h2>
 						<div id="link-cont">
-							<a dowload="Dario Hirsch CV - EN" href="../Dario Hirsch CV - English.pdf" id="downloadBtn" target="_blank">
-								CV en Español
+							<a href="../Dario Hirsch CV - Castellano.pdf" id="downloadBtn" target="_blank">
+								CV - ESP
 							</a>
-							<a download="Dario Hirsch CV - CA" href="../Dario Hirsch CV - Castellano.pdf" id="downloadBtn" target="_blank">
-								CV en Inglés
+							<a href="../Dario Hirsch CV - English.pdf" id="downloadBtn" target="_blank">
+								CV - ING
 							</a>
 						</div>
 					</>
