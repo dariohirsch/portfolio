@@ -468,3 +468,9 @@ a {
 		margin-right: 12px;
 	}
 }
+
+@media (width > 1440px) {
+	#projects-container {
+		height: 70vh;
+	}
+}
