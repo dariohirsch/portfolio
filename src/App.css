@@ -353,6 +353,7 @@ a {
 	color: black;
 	align-items: center;
 	margin-top: 20px;
+	transition: 0.4s ease;
 }
 .to-align:hover {
 	color: rgb(245, 80, 80);
