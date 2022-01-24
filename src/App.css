@@ -354,7 +354,9 @@ a {
 	align-items: center;
 	margin-top: 20px;
 }
-
+.to-align:hover {
+	color: rgb(245, 80, 80);
+}
 /* Reponsive */
 
 @media (max-width: 450px) {

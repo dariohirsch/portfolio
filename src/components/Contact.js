@@ -7,10 +7,12 @@ const Contact = () => {
 					<span>darohirsch@gmail.com</span>
 				</span>
 
-				<span className="to-align">
+				<a className="to-align" href="https://api.whatsapp.com/send?phone=+34670349843" target="_blank" rel="noreferrer">
 					<img className="contact-logo" src="/whatsapp.png" alt="" />
+
 					<span>+34 670 34 98 43</span>
-				</span>
+				</a>
+
 				<a className="to-align" href="http://www.linkedin.com/in/dario-hirsch" target="_blank" rel="noreferrer">
 					<img className="contact-logo" src="/icons8-linkedin-48.png" alt="" />
 					<span>/dario-hirsch</span>
