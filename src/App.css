@@ -478,7 +478,8 @@ a {
 		height: 70vh;
 		margin-top: 8rem;
 	}
-	#contact-info a {
+	#contact-info a,
+	span {
 		font-size: 1.5rem;
 	}
 
