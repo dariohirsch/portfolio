@@ -186,7 +186,7 @@
 	margin-bottom: 2rem;
 }
 #img-container {
-	height: 328px;
+	height: 34rem;
 	width: 400px;
 }
 
@@ -473,5 +473,9 @@ a {
 @media (width > 1440px) {
 	#projects-container {
 		height: 70vh;
+	}
+	#about-me {
+		height: 70vh;
+		margin-top: 8rem;
 	}
 }
