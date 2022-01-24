@@ -180,13 +180,14 @@
 
 #about-me {
 	height: 100vh;
+	margin-top: 2rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 2rem;
 }
 #img-container {
-	height: 34rem;
+	height: 24rem;
 	width: 400px;
 }
 
@@ -203,7 +204,7 @@
 }
 
 #text {
-	line-height: 1.6rem;
+	line-height: 1.7rem;
 	font-family: "Poppins", sans-serif;
 	font-weight: 1;
 }
