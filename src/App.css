@@ -183,9 +183,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 2rem;
 }
 #img-container {
-	height: 400px;
+	height: 328px;
 	width: 400px;
 }
 
@@ -202,9 +203,9 @@
 }
 
 #text {
-	line-height: 1.9rem;
+	line-height: 1.6rem;
 	font-family: "Poppins", sans-serif;
-	font-weight: lighter;
+	font-weight: 1;
 }
 /* 
 hr {
@@ -418,7 +419,7 @@ a {
 		margin-bottom: 20rem;
 		flex-direction: column;
 		justify-content: flex-start;
-		height: 100vh;
+		height: 86vh;
 		margin-top: 40px;
 		padding-top: 50px;
 	}
