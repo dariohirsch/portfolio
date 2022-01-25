@@ -7,15 +7,7 @@ const Welcome = (props) => {
 						<h4>Hi!</h4>
 						<h2>
 							I'm Dario Hirsch <br />
-							Web <span id="d">D</span>
-							<span id="e">e</span>
-							<span id="v">v</span>
-							<span id="e">e</span>
-							<span id="l">l</span>
-							<span id="o">o</span>
-							<span id="p">p</span>
-							<span id="e">e</span>
-							<span id="r">r</span>
+							Web Developer
 						</h2>
 						<div id="link-cont">
 							<a href="../Dario Hirsch CV - English.pdf" id="downloadBtn" target="_blank">
@@ -31,7 +23,7 @@ const Welcome = (props) => {
 						<h4>Hola!</h4>
 						<h2 id="spanish-title">
 							Soy Dario Hirsch <br />
-							Desarrollador <span>Web</span>
+							Desarrollador Web
 							{/* <span id="e">e</span>
 							<span id="v">v</span>
 							<span id="e">e</span>
