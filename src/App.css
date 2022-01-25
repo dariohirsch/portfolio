@@ -180,10 +180,10 @@
 
 #about-me {
 	height: 100vh;
-	margin-top: 2rem;
+	padding-top: 12rem;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	margin-bottom: 2rem;
 }
 #img-container {
@@ -411,8 +411,8 @@ a {
 		text-align: center;
 	} */
 	#link-cont a {
-		background-color: rgb(245, 80, 80);
-		border: rgb(245, 80, 80);
+		/* background-color: rgb(245, 80, 80); */
+		border: 2px solid rgb(245, 80, 80);
 		font-size: 18px;
 	}
 
@@ -423,6 +423,7 @@ a {
 		height: 86vh;
 		margin-top: 40px;
 		padding-top: 50px;
+		align-items: center;
 	}
 
 	#img-container {
