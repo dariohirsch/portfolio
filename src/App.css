@@ -412,8 +412,13 @@ a {
 	} */
 	#link-cont a {
 		/* background-color: rgb(245, 80, 80); */
-		border: 2px solid rgb(245, 80, 80);
+		border: 2px solid rgb(240, 114, 114);
 		font-size: 18px;
+		background-color: rgb(240, 114, 114);
+	}
+	#link-cont {
+		/* background-color: rgb(245, 80, 80); */
+		margin-left: 0.5em;
 	}
 
 	#about-me {

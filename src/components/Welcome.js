@@ -23,7 +23,7 @@ const Welcome = (props) => {
 						<h4>Hola!</h4>
 						<h2 id="spanish-title">
 							Soy Dario Hirsch <br />
-							Desarrollador Web
+							Desarrollador Web``
 							{/* <span id="e">e</span>
 							<span id="v">v</span>
 							<span id="e">e</span>
